@@ -13,6 +13,14 @@ h1{
     max-width: 650px;
     margin: 15px auto;
 }
+.flexGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexGrid img{
+    padding: 5px;
+}
 /* Mobile Last */
 @media(max-width: 550px){
     .holaMundo{
