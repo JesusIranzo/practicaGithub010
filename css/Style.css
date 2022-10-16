@@ -7,11 +7,20 @@ h1{
     font-family: sans-serif;
     color: rgb(195, 0, 255);
 }
+h1:hover{
+    color: white;
+    transform: skew(-15deg);
+    transition: .3s;
+}
 .holaMundo{
     background-color: bisque;
     text-align: center;
     max-width: 650px;
     margin: 15px auto;
+}
+.holaMundo:hover{
+    background-color: rgb(228, 165, 89);
+    transition: .3s;
 }
 .flexGrid{
     display: flex;
